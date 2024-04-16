@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
-import 'package:chatbot_and_image_generator/secret.dart';
+import 'package:chatbot_and_image_generator/API_KEY.dart';
 
 class OpenAi_service {
   final List<Map<String, String>> messages = [];
